@@ -1,0 +1,26 @@
+/*
+Theme Name: circles
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+@font-face {  font-family: 'BYekan';  font-weight: normal;  src: url('fonts/BYekan.eot?#') format('eot'),  /* IE6?8 */     url('fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/     url('fonts/BYekan.ttf') format('truetype');  /* Saf3?5, Chrome4+, FF3.5, Opera 10+ */}body {direction:rtl;unicode-bidi: embed;font-family:BYekan,Tahoma,Arial;}
+body {font-family : 'BYekan'; }
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'BYekan'!important;
+}
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+  text-align:right;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+direction: rtl;
+}
