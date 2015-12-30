@@ -8,3 +8,35 @@
  Version:      0.0.1
  Text Domain:  cirlces
 */
+.page-header .wrapper.wrapper-bg.border-bottom-white .container{
+	background: url('images/pattern19.png') repeat top left;
+}
+.menu li > a{
+	color : #fff;
+	font-size : 14px;
+}
+.menu > li.current_page_item > a,.menu li>a:hover, .menu > li:hover > a::after{
+	color : #ccc !important;
+}
+a.phone.contact,a.email.contact{
+	color : #eee;
+}
+.wrapper.headline {
+    height: 60px;
+}
+.wrapper.headline h1{
+	font-size :24px;
+}
+@media only screen and (max-width: 767px){
+.mini_logo {
+    opacity: 1;
+    visibility: visible;
+    display: inline-block;
+}
+}
+footer .widget h2{
+	color : #ddd !important;
+}
+.widget_wpstatistics_widget li{
+	color : white;
+}

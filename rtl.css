@@ -24,3 +24,123 @@ body {
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
 direction: rtl;
 }
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+    float: right;
+}
+.logo {
+    float: right;
+}
+.headerstyle3 .menu, .headerstyle2 .menu {
+    float: right;
+}
+#search-icon {
+    float: left;
+    position: relative;
+    z-index: 100;
+}
+#search-icon i {
+    right: -4px;
+    left: auto;
+    border-right: 1px solid #ccc;
+    border-left: 0px solid #ccc;
+
+    padding-right: 30px;
+    padding-left: 0px;
+ }
+ #search-icon form input {
+   
+    left: -30px;
+    right: auto;
+}
+#search-icon form input {
+    padding: 4px 28px 4px 28px;
+}
+.headline h1 {
+    float: right;
+}
+.page-path{
+	float : left;
+}
+
+.menu li {
+    text-align: right;
+ }
+.menu li ul {
+    right: 0px;
+    left: auto;
+}
+img#logo {
+    margin-right: 10px;
+}
+.single-portfolio.headerstyle2 .absolute, .single-portfolio.headerstyle2 .headline, .woocommerce.headerstyle2 .absolute, .woocommerce.headerstyle2 .headline, .single-post.headerstyle2 .absolute, .single-post.headerstyle2 .headline, .category.headerstyle2 .absolute, .category.headerstyle2 .headline {
+    height: 65px;
+}
+@media only screen and (max-width: 767px){
+.headerstyle3 .menu, .headerstyle2 .menu{
+	float : right;
+
+}
+.menu li {
+    margin: 0;
+    display: block;
+    text-align: right;
+    padding-left: 5px;
+    border: 0;
+    border-bottom: 1px dotted #555;
+}
+.headerstyle2 .menu {
+    width: 100%;
+}
+header .menu {
+    margin-top: 0;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(41, 41, 41);
+    height: 0;
+}
+#menu-btn {
+    display: inline-block;
+}
+#search-icon {
+    display: none;
+}
+.headerstyle2 .logo img {
+    height: 30px !important;
+    opacity: 1;
+}
+.headerstyle3 .menu {
+    margin-right: auto;
+}
+}
+
+
+.post-helper-absolute {
+    right: -80px;
+    left: auto;
+}
+.post {
+    padding: 30px 15px 25px 0px;
+    margin-left: auto;
+    margin-right: 80px;
+}
+.gallery-icon {
+    margin-right: auto;
+    margin-left: 30px;
+ }
+
+.post-date, .post-category {
+    background-position: right center;
+    
+    margin-right: auto;
+    margin-left: 10px;
+    padding-left: auto;
+    padding-right: 25px;
+}
+/*-------------footer--------------------*/
+footer .widget h2{
+	color : #ddd !important;
+}
+.copyright {
+    float: right;
+}
+
