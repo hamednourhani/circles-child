@@ -144,3 +144,8 @@ footer .widget h2{
     float: right;
 }
 
+/*------------------wpml------------------------*/
+#lang_sel_list li {
+    float: left;
+}
+

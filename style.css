@@ -40,3 +40,11 @@ footer .widget h2{
 .widget_wpstatistics_widget li{
 	color : white;
 }
+#lang_sel_list li {
+    float: right;
+}
+#lang_sel_list a{
+	padding : 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
