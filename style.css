@@ -11,6 +11,20 @@
 .page-header .wrapper.wrapper-bg.border-bottom-white .container{
 	background: url('images/pattern19.png') repeat top left;
 }
+body.page.home{
+	background: url('images/pattern19.png') repeat top left !important;
+	
+}
+.page.home .control-panel,
+.page.home .top-slider,
+.page.home .page-header,
+.page.home footer{
+	display: none;
+
+}
+.page.home > .wrapper{
+	background: none;
+}
 .menu li > a{
 	color : #fff;
 	font-size : 14px;
