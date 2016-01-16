@@ -33,6 +33,12 @@ direction: rtl;
 .headerstyle3 .menu, .headerstyle2 .menu {
     float: right;
 }
+.headerstyle3 .contact {
+    
+    float: left;
+    
+}
+
 #search-icon {
     float: left;
     position: relative;

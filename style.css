@@ -33,7 +33,16 @@ body.page.home{
 	color : #ccc !important;
 }
 a.phone.contact,a.email.contact{
-	color : #eee;
+	color : #fff;
+}
+.headerstyle3 .contact {
+    
+    float: right;
+    
+}
+.headerstyle3 .menu, .headerstyle2 .menu {
+    
+    float: left;
 }
 .wrapper.headline {
     height: 60px;
