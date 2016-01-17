@@ -49,6 +49,16 @@ a.phone.contact,a.email.contact{
 }
 .wrapper.headline h1{
 	font-size :24px;
+
+}
+.single .wrapper.headline h1{
+	display: none;
+}
+.avatar img{
+	margin : 0px;
+}
+.post-helper-absolute .post-comments{
+	display: none;
 }
 @media only screen and (max-width: 767px){
 .mini_logo {
