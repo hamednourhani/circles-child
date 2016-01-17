@@ -147,6 +147,11 @@ header .menu {
     padding-left: auto;
     padding-right: 25px;
 }
+#widget_wprpe ul li {
+    background-position: 100% 10px;
+    padding-left: 0px;
+    padding-right: 14px;
+}
 /*-------------footer--------------------*/
 footer .widget h2{
 	color : #ddd !important;
