@@ -122,8 +122,9 @@ header .menu {
     margin-right: auto;
 }
 }
-
-
+.post-area.grid_9,.right-sidebar.grid_3{
+    float : left;
+}
 .post-helper-absolute {
     right: -80px;
     left: auto;

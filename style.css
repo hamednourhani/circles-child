@@ -81,3 +81,9 @@ footer .widget h2{
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
+
+
+/*------------------main-------------------------------*/
+.post-area.grid_9,.right-sidebar.grid_3{
+	float : right;
+}
