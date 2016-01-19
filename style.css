@@ -25,16 +25,26 @@ body.page.home{
 .page.home > .wrapper{
 	background: none;
 }
+.menu a:hover{
+	color : red !important;
+}
+.menu a{
+	color : #fff !important;
+}
 .menu li > a{
 	color : #fff;
 	font-size : 14px;
 }
+.menu li > a:hover{
+	color : red;
+}
 .menu > li.current_page_item > a,.menu li>a:hover, .menu > li:hover > a::after{
-	color : #ccc !important;
+	color : red !important;
 }
 a.phone.contact,a.email.contact{
 	color : #fff;
 }
+
 .headerstyle3 .contact {
     
     float: right;
@@ -87,3 +97,13 @@ footer .widget h2{
 .post-area.grid_9,.right-sidebar.grid_3{
 	float : right;
 }
+.b1170 .wrapper, .b960 .wrapper {
+    background-color: #f3f3f3;
+    border-right: 0px ;
+    border-left: 0px;
+}
+
+.form-allowed-tags{
+	display: none;
+}
+
