@@ -151,7 +151,12 @@ header .menu {
     background-position: 100% 10px;
     padding-left: 0px;
     padding-right: 14px;
+    background-image: url(images/arrow-rtl.gif);
+
 }
+#widget_wprpe ul li {
+    color: #777;
+    font-size: 13px;
 /*-------------footer--------------------*/
 footer .widget h2{
 	color : #ddd !important;
