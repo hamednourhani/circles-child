@@ -91,7 +91,9 @@ footer .widget h2{
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
-
+.wrapper.top-slider{
+	margin-top : 45px;
+}
 
 /*------------------main-------------------------------*/
 .post-area.grid_9,.right-sidebar.grid_3{
