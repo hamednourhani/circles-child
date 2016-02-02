@@ -22,6 +22,9 @@ body.page.home{
 	display: none;
 
 }
+.page.home .wrapper.header-image {
+    display: none;
+}
 .page.home > .wrapper{
 	background: none;
 }
